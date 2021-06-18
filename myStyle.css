@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+:link { color: #000000; }
+:visited { color: #000000; }
+
+
+
+body{
+    user-select: none;
+    font-family: 'Roboto' ;
+    font-size: 1rem;
+    font-weight: 400, 900;
+}
+
+#menuBar a:hover {
+    color: white;
+    background-color: black;
+}
+
+#firstUptown a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+ul{
+    list-style: none;
+}
+
+#reMakeupTown{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+#firstUptown{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 70px;
+}
+
+#footerUptown{
+    margin-top: 70px;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+
+.row{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+}
+
+.f{
+    display: flex;
+    margin: auto;
+}
+
+.j{
+    justify-content: center;
+    margin: auto;
+}
+
+#content{
+    
+    width: 1280px;
+    
+}
+
+.col-1{width: 25%; padding: 10px 10px;}
+.col-2{width: 50%; padding: 10px 10px;}
+.col-3{width: 75%; padding: 10px 10px;}
+.col-4{width: 100%; padding: 10px 10px;}
+
+.h-200{height: 200px;}
+.h-300{height: 300px;}
+.h-400{height: 400px;}
+.h-500{height: 500px;}
+.h-600{height: 600px;}
+.h-700{height: 700px;}
+
+.text-main-title{font-family: Roboto; font-size: 75px; color: rgb(0, 0, 0);}
+.text-main-text{font-family: Roboto; font-size: 15px; color: rgb(0, 0, 0);}
+.text-sub-title{font-family: Roboto; font-size: 25px; color: rgb(0, 0, 0);}
+.text-menu-text{font-family: Roboto; font-size: 20px;}
+.text-intro-text{font-family: Roboto; font-size: 1rem}
+
+
+.text-aline-center{text-align: center;}
+.text-aline-left{text-align: left;}
+.text-aline-right{text-align: right; margin-right: 20px;}
+
+.TTAA{
+ mix-blend-mode: luminosity;
+}
+
+.TTAA.on{
+    mix-blend-mode: normal;
+}
+
+
+
+
